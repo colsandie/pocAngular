@@ -1,4 +1,4 @@
-ROM nginx:alpine
+FROM nginx:alpine
 
 LABEL maintainer="ReliefMelone"
 
