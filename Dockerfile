@@ -6,8 +6,8 @@ WORKDIR /app
 COPY . .
 
 # Install node.js
-RUN apk update && \
-    apk add nodejs npm python make curl g++
+#RUN apk update && \
+#    apk add nodejs npm python make curl g++
 
 
 # Build Application
