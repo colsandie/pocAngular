@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM bitnami/nginx:latest
 
 LABEL maintainer="ReliefMelone"
 
