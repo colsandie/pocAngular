@@ -11,7 +11,7 @@ export class UserService {
   private usersUrl: string;
 
   constructor(private http: HttpClient) {
-    this.usersUrl = 'http://poc-java-git:8080/users';
+    this.usersUrl = 'http://poc-java-git-poc-java.apps.devsecops.zkhj.p1.openshiftapps.com/users';
    }
 
    public findAll(): Observable<User[]> {
